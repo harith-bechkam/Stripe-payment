@@ -98,7 +98,7 @@ function App() {
  
   async function handleToken(token, addresses) {
     const response = await axios.post(
-      "http://localhost:8080/checkout",
+      "https://powerful-wildwood-75399.herokuapp.com/checkout",
       { token, product }
     );
  
