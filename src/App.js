@@ -103,7 +103,7 @@ function App() {
         </StripeCheckout>
 
 
-        {/* <form action="https://payment-gateway-node-be.herokuapp.com/api/payment/paypal" method="post">
+        {/* <form action={`${END_POINT}/api/payment/paypal`} method="post">
           <button className='btn-large blue'>Buy Paypal 25$</button>
         </form> */}
 
